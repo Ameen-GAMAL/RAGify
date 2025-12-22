@@ -1,0 +1,70 @@
+{
+  "raw_pdfs_dir": "F:\\OneDrive\\Desktop\\Advanced-DB\\Assign\\rag-lectures\\data\\raw_pdfs",
+  "processed_dir": "F:\\OneDrive\\Desktop\\Advanced-DB\\Assign\\rag-lectures\\data\\processed",
+  "outputs": {
+    "pages": "F:\\OneDrive\\Desktop\\Advanced-DB\\Assign\\rag-lectures\\data\\processed\\pages.jsonl",
+    "pages_clean": "F:\\OneDrive\\Desktop\\Advanced-DB\\Assign\\rag-lectures\\data\\processed\\pages_clean.jsonl",
+    "chunks": "F:\\OneDrive\\Desktop\\Advanced-DB\\Assign\\rag-lectures\\data\\processed\\chunks.jsonl"
+  },
+  "per_lecture": {
+    "ADB_Lec01": {
+      "pages": 68,
+      "empty_pages": 1,
+      "chars": 28933,
+      "chunks": 10
+    },
+    "ADB_Lec02": {
+      "pages": 65,
+      "empty_pages": 1,
+      "chars": 23598,
+      "chunks": 9
+    },
+    "ADB_Lec03": {
+      "pages": 67,
+      "empty_pages": 1,
+      "chars": 32068,
+      "chunks": 10
+    },
+    "ADB_Lec04": {
+      "pages": 79,
+      "empty_pages": 2,
+      "chars": 19974,
+      "chunks": 7
+    },
+    "ADB_Lec05": {
+      "pages": 57,
+      "empty_pages": 1,
+      "chars": 25955,
+      "chunks": 9
+    },
+    "ADB_Lec06": {
+      "pages": 50,
+      "empty_pages": 1,
+      "chars": 20607,
+      "chunks": 8
+    },
+    "ADB_Lec07": {
+      "pages": 64,
+      "empty_pages": 1,
+      "chars": 19329,
+      "chunks": 9
+    },
+    "ADB_Lec08": {
+      "pages": 67,
+      "empty_pages": 1,
+      "chars": 21122,
+      "chunks": 10
+    },
+    "ADB_Lec09": {
+      "pages": 51,
+      "empty_pages": 1,
+      "chars": 18137,
+      "chunks": 8
+    }
+  },
+  "qa_hints": {
+    "check_headers_removed": "Open pages_clean.jsonl and verify repeated course/title lines are removed.",
+    "check_bullets_normalized": "Look for '-' bullets instead of PDF glyphs like ''.",
+    "check_chunk_sizes": "Most chunks should be > ~500 chars; adjust chunk_size if too small/large."
+  }
+}
