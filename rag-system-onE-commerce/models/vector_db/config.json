@@ -1,0 +1,11 @@
+{
+  "model_name": "all-MiniLM-L6-v2",
+  "dimension": 384,
+  "index_type": "flat",
+  "stats": {
+    "total_embeddings": 1000,
+    "index_type": "flat",
+    "model_name": "all-MiniLM-L6-v2",
+    "embedding_dimension": 384
+  }
+}
