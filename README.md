@@ -34,83 +34,64 @@ Context Injection into Prompt
 LLM Answer Generation
 ```
 
-
 ## 🏗️ System Architecture
-Architecture Diagram (Conceptual)
-┌───────────────────┐
-│   Lecture Data    │
-│  (JSON Files)     │
-└────────┬──────────┘
-         │
-         ▼
-┌───────────────────┐
-│  Text Chunking    │
-│ (Overlapping)     │
-└────────┬──────────┘
-         │
-         ▼
-┌───────────────────┐
-│  Embedding Model  │
-│ (SBERT MPNet)     │
-└────────┬──────────┘
-         │
-         ▼
-┌───────────────────┐
-│ Vector Database   │
-│     (FAISS)       │
-└────────┬──────────┘
-         │
-         ▼
-┌───────────────────┐
-│  Semantic Search  │
-│   (Top-k Chunks)  │
-└────────┬──────────┘
-         │
-         ▼
-┌───────────────────┐
-│ Prompt Assembly   │
-│ + Retrieved Docs  │
-└────────┬──────────┘
-         │
-         ▼
-┌───────────────────┐
-│ LLM Generation    │
-│ (HF Router API)   │
-└────────┬──────────┘
-         │
-         ▼
-┌───────────────────┐
-│   Final Answer    │
-│ + Retrieved Docs  │
-└───────────────────┘
+
+### Architecture Diagram (Conceptual)
+
+```text
+Lecture Data (JSON Files)
+        │
+        ▼
+Text Chunking (Overlapping)
+        │
+        ▼
+Embedding Model (SBERT MPNet)
+        │
+        ▼
+Vector Database (FAISS)
+        │
+        ▼
+Semantic Search (Top-k Chunks)
+        │
+        ▼
+Retrieved Documents
+        │
+        ▼
+Prompt Assembly + Retrieved Docs
+        │
+        ▼
+LLM Generation (HF Router API)
+        │
+        ▼
+Final Answer + Retrieved Docs
 
 
-## 📁 Project Structure
 
-
-CSAI_302_Project/
+## CSAI_302_Project/
 │
-├── app.py                      # Streamlit UI (main entry point)
+├── app.py                    # Streamlit UI (main entry point)
 │
 ├── src/
-│   ├── embeddings.py           # Embedding model logic
-│   ├── vector_store.py         # FAISS vector database
-│   ├── retrieval.py            # Semantic retrieval logic
-│   ├── generation.py           # LLM generation module
-│   ├── chunking.py             # Text chunking with overlap
-│   ├── load_data.py            # Lecture data loader
-│   └── main.py                 # CLI runner (optional)
+│   ├── embeddings.py         # Embedding model logic (SBERT MPNet)
+│   ├── vector_store.py       # FAISS vector database implementation
+│   ├── retrieval.py          # Semantic retrieval logic (Top-k search)
+│   ├── generation.py         # LLM generation module (HF Router API)
+│   ├── chunking.py           # Text chunking with overlap
+│   ├── load_data.py          # Lecture data loader
+│   └── main.py               # CLI runner (optional)
 │
 ├── data/
 │   ├── lectures/
 │   │   ├── lecture_01.json
 │   │   ├── lecture_02.json
 │   │   └── ...
+│   │
 │   └── chunks/
-│       └── chunks.json
+│       └── chunks.json       # Preprocessed text chunks
 │
-├── requirements.txt
-└── README.md
+├── requirements.txt          # Project dependencies
+└── README.md                 # Project documentation
+
 
 
 ## 📊 Dataset Description
