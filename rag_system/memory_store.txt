@@ -1,0 +1,66 @@
+[MEMORY ITEM]
+
+Query:
+what is communication planning 
+
+Initial LLM Answer:
+Communication planning is the process of preparing a communication plan for an organization in order to implement its strategies, services and activities. This plan is usually based on an organization's business goals. The term "communication plan" is used in the United States to describe a process for determining the best way to communicate with an audience. A communication plan is a tool that helps organizations to communicate with their customers and stakeholders. It is a technique that allows organizations to gauge the effectiveness of their marketing efforts. The term "communication plan" is used in the United States to describe a process for determining the best way to communicate with an audience and stakeholders. The term "communication plan" is used in the United States to describe a process for determining the best way to communicate with an audience and stakeholders.
+
+Final Answer (After RAG Refinement):
+Communication planning is the process of preparing a communication plan for an organization in order to implement its strategies, services and activities. This plan is usually based on an organization's business goals. The term "communication plan" is used in the United States to describe a process for determining the best way to communicate with an audience and stakeholders. A communication plan is a tool that helps organizations to communicate with their customers and stakeholders. It is a technique that allows organizations to gauge the effectiveness of their marketing efforts. The term "communication plan" is used in the United States to describe a process for determining the best way to communicate with an audience and stakeholders. A communication plan is a tool that helps organizations to communicate with their customers and stakeholders. It is a technique that allows organizations to gauge the effectiveness of their marketing efforts.
+
+Retrieved Context Preview:
+- ication+PlansLecture # 11 Communication Planning
+→ Key Points
+11Key Points
+DR. Perihan Elbaz @ 2025•Project communication is a key success factor.
+•Start with a Communication Requirements Analysis and
+- ication+PlansLecture # 11 Communication Planning
+→ Key Points
+11Key Points
+DR. Perihan Elbaz @ 2025•Project communication is a key success factor.
+•Start with a Communication Requirements Analysis and
+- ication+PlansLecture # 11 Communication Planning
+→ Key Points
+11Key Points
+DR. Perihan Elbaz @ 2025•Project communication is a key success factor.
+•Start with a Communication Requirements Analysis and
+
+---
+
+[MEMORY ITEM]
+
+Query:
+what do you know about communication 
+
+Initial LLM Answer:
+a language used to communicate with people around the world. a tool used to share ideas and information. a means of transferring information. a way of delivering information. a form of communication. a means of transferring information. a technology. a way of sharing knowledge. a way of transmitting information. a way of receiving information. a means of transferring information. a technology. a way of transferring information. a technology. a way of using technology. a way of communicating with people. a way of sharing knowledge. a way of transferring information. a technology. a way of sharing information. a technology. a way of transferring information.
+
+Final Answer (After RAG Refinement):
+Final Answer (After RAG Refinement): Communication is the process of transferring messages between two or more parties. It involves a variety of methods and strategies. The most common method for communication is the use of a speaker phone. The telephone is a type of device that uses sound to communicate with other people. Most telephones have a speaker on the end to transmit the message. A speaker phone is used to communicate with other people. A telephone is a type of device that uses sound to communicate with other people. Most telephones have a speaker on the end to transmit the message. The most common method for communication is the use of a speaker phone. The telephone is a type of device that uses sound to communicate with other people. Most telephones have a speaker on the end to transmit the message.
+
+Retrieved Context Preview:
+- [MEMORY ITEM]
+
+Query:
+what do you know about communication 
+
+Initial LLM Answer:
+Communication is the process of transferring messages between two or more parties. It involves a variety of methods and
+- [MEMORY ITEM]
+
+Query:
+what do you know about communication 
+
+Initial LLM Answer:
+Communication is the process of transferring messages between two or more parties. It involves a variety of methods and
+- [MEMORY ITEM]
+
+Query:
+what is communication planning 
+
+Initial LLM Answer:
+Communication planning is the process of preparing a communication plan for an organization in order to implement its strateg
+
+---
+
